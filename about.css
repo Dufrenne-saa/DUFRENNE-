@@ -1,0 +1,70 @@
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1343px;
+    background: #df9f40;
+    background-size: cover;
+}
+
+.header .navbar .logo {
+    float: left;
+    margin-top: 50px;
+    background: #777777;
+}
+.header .navbar .menu {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.header .navbar .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.header .navbar .menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+.header .navbar .menu ul li a:hover{
+    border-bottom: 2px solid #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header .image {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.header .idem {
+    width: calc(50% - 10px);
+}
+.header .idem img {
+    margin-left: 20px;
+    width: 90%;
+    height: auto;
+    box-shadow: 20px 20px  rgba(0, 0, 0, 0.3);
+}
+.contacts{
+    width: 1343px;
+    padding: 20px 0;
+    background: #ff9900;
+}
+.contacts .section_title{
+    text-align: center;
+}

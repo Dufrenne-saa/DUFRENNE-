@@ -1,0 +1,140 @@
+
+.header {
+    width: 1343px;
+    background-image: url("/storage/emulated/0/MA PAGE WEB (Essai)/img/fond.jpg");
+    background-size: cover;
+    height: 750px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .logo {
+    float: left;
+    margin-top: 50px;
+    background: #777777;
+}
+.header .navbar .menu {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.header .navbar .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.header .navbar .menu ul li a{
+    color: #afb0fd;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+.header .navbar .menu ul li a:hover{
+    border-bottom: 2px solid #afb0fd;
+}
+
+.clearfix {
+    clear: both;
+}
+.header .home {
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.header .home h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+.header .home h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.header .home a{
+    background-color: #ff9900;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.header .home a:hover {
+    box-shadow: 0 0 10px #ff9900;
+}
+
+.services{
+    padding: 120px 0;
+    margin-top: -50px;
+    background: #dfdfdf;
+    width: 1343px;
+}
+.services .section_title{
+    text-align: center;
+}
+.services .section_title h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.services .section_title p{
+    font-family: 'droid serif', sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+}
+.services .services_boxs .serv{
+    width: 31%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    margin: 10px;
+    background: #dadad9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.services .services_boxs .serv i{
+    font-size: 40px;
+    color: #ff9900;
+    border: 3px solid #ff9900;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+    margin-top: 8px;
+}
+.services .services_boxs .serv h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+.services .services_boxs .serv p{
+    font-family: 'Roboto slab', serif;
+    font-size: 14px;
+    color: #777777;
+}
+.contacts{
+    padding: 20px 0;
+    background: #ff9900;
+    width: 1343px;
+}
+.contacts .section_title{
+    text-align: center;
+}
+
+
