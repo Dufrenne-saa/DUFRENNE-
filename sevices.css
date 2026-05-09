@@ -1,10 +1,11 @@
 .header {
-    width: 1343px;
-    background-image: url("fond.jpg");
+    width: 100%;
+    background-image: url("img/fond.jpg");
     background-size: cover;
 }
 .container {
-    width: 1170px;
+    width: 90%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -44,11 +45,10 @@
 }
 
 .header .services{
-    width: 1343px;
+    width: 100%;
     padding: 100px 0;
     backdrop-filter: blur(1px);
     background: rgba(0, 0, 0, 0.2);
-    background: cover;
 }
 .header .services .section_title{
     text-align: center;
@@ -99,8 +99,36 @@
 .contacts{
     padding: 20px 0;
     background: #ff9900;
-    width: 1343px;
+    width: 100%;
 }
 .contacts .section_title{
     text-align: center;
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .header .navbar .logo {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header .navbar .menu {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header .navbar .menu ul li {
+        margin: 0 8px;
+    }
+    .header .services {
+        padding: 40px 0;
+    }
+    .header .services .section_title h1 {
+        font-size: 26px;
+    }
+    .header .services .services_boxs .serv {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
 }
