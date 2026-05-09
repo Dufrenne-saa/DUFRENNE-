@@ -1,11 +1,11 @@
-
 .container {
-    width: 1170px;
+    width: 90%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
 .header {
-    width: 1343px;
+    width: 100%;
     background: #df9f40;
     background-size: cover;
 }
@@ -58,13 +58,38 @@
     margin-left: 20px;
     width: 90%;
     height: auto;
-    box-shadow: 20px 20px  rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.3);
 }
 .contacts{
-    width: 1343px;
+    width: 100%;
     padding: 20px 0;
     background: #ff9900;
 }
 .contacts .section_title{
     text-align: center;
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .header .navbar .logo {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header .navbar .menu {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header .navbar .menu ul li {
+        margin: 0 8px;
+    }
+    .header .idem {
+        width: 100%;
+    }
+    .header .idem img {
+        margin-left: 0;
+        width: 100%;
+        box-shadow: none;
+    }
 }
