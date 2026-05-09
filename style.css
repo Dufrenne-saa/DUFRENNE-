@@ -1,7 +1,7 @@
 
 .header {
     width: 1343px;
-    background-image: url("/storage/emulated/0/MA PAGE WEB (Essai)/img/fond.jpg");
+    background-image: url("fond.jpg");
     background-size: cover;
     height: 750px;
 }
