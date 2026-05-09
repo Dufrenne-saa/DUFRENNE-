@@ -1,6 +1,6 @@
-
 .container {
-    width: 1170px;
+    width: 90%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -41,24 +41,27 @@
 
 .contacts{
     margin-top: 20px;
-    width: 1343px;
+    width: 100%;
     padding: 20px 0;
     background: #ff9900;
-    
 }
 .contacts .section_title{
     text-align: center;
 }
 
 .im {
-    margin-left: 800px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
 }
 
 .noms {
-    position: absolute;
-    margin-top: 100px;
-    left: 150px;
+    position: relative;
+    margin-top: 30px;
+    left: auto;
     text-align: center;
+    padding: 20px;
 }
 .noms p{
     color: #777777;
@@ -79,4 +82,27 @@
     border: none;
     cursor: pointer;
     transition: 0.3s;
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .header .navbar .logo {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header .navbar .menu {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header .navbar .menu ul li {
+        margin: 0 8px;
+    }
+    .noms h2 {
+        font-size: 22px;
+    }
+    .noms a {
+        padding: 15px 30px;
+    }
 }
