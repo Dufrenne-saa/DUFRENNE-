@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PORTFOLIO DUFRENNE</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
@@ -13,9 +13,12 @@
             <div class="container">
                 <div class="navbar">
                     <div class="logo">
-                        <img src="logo.png" alt="">
+                        <img src="img/logo.png" alt="Logo">
                     </div>
-                    <div class="menu">
+                    <button class="burger" id="burger" aria-label="Menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="menu" id="menu">
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="services.html">Services</a></li>
@@ -24,11 +27,11 @@
                         </ul>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="home">
-                        <h2>Welcome to my page !</h2>
-                        <h1>It's nice to meet you</h1><br><br>
-                        <a href="about.html">Tell me more</a>
-                    </div>
+                </div>
+                <div class="home">
+                    <h2>Welcome to my page !</h2>
+                    <h1>It's nice to meet you</h1><br><br>
+                    <a href="about.html">Tell me more</a>
                 </div>
             </div>
         </div>
@@ -68,14 +71,17 @@
                 <div class="contact_info">
                     <p><i class="fa fa-envelope"></i> Email: <a href="mailto:kouemegniyann90@gmail.com">kouemegniyann90@gmail.com</a></p>
                     <p><i class="fa fa-phone"></i> Tél: +237 677 392 044</p>
-                    <p><i class="fa fa-linkedin"></i> Mon profil <a href="https://www.linkedin.com/in/yann-kouemegni-a6a9773bb?utm_source=share_via&utm_content=profile&utm_medium=member_android">linkedin.com</a></p>
+                    <p><i class="fa fa-linkedin"></i> Mon profil <a href="https://www.linkedin.com/in/yann-kouemegni-a6a9773bb">linkedin.com</a></p>
                     <p><i class="fa fa-github"></i> Mon profil <a href="https://github.com/Dufrenne-saa">Github.com</a></p>
                 </div>
             </div>
         </div>
-
-        <script src="jquery.js"></script>
-        <script src="script.js"></script>
-        </div>
+        <script>
+            const burger = document.getElementById('burger');
+            const menu = document.getElementById('menu');
+            burger.addEventListener('click', () => {
+                menu.classList.toggle('open');
+            });
+        </script>
     </body>
 </html>
