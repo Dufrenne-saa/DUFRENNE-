@@ -86,11 +86,11 @@
             </div>
         </div>
         <script>
-            const burger = document.getElementById('burger');
-            const menu = document.getElementById('menu');
-            burger.addEventListener('click', () => {
-                menu.classList.toggle('open');
-            });
+            const burger = document.getElementById("burger");
+            const menu = document.getElementById("menu");
+            const overlay = document.getElementById("overlay");
+            burger.addEventListener("click", () => { menu.classList.toggle("open"); overlay.classList.toggle("open"); });
+            overlay.addEventListener("click", () => { menu.classList.remove("open"); overlay.classList.remove("open"); });
         </script>
     </body>
 </html>
