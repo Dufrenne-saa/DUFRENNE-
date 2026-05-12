@@ -8,6 +8,7 @@
 .header .navbar .logo {
     float: left;
     margin-top: 23px;
+    background: #777777;
 }
 .header .navbar .menu {
     float: right;
