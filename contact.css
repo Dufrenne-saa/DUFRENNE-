@@ -80,3 +80,117 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
+
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .logo {
+    float: left;
+    margin-top: 23px;
+    background: #777777;
+}
+.header .navbar .menu {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.header .navbar .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.header .navbar .menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+.header .navbar .menu ul li a:hover{
+    border-bottom: 2px solid #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.contacts{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+    background: #ff9900;
+}
+.contacts .section_title{
+    text-align: center;
+}
+
+.im {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.noms {
+    position: relative;
+    margin-top: 30px;
+    left: auto;
+    text-align: center;
+    padding: 20px;
+}
+.noms p{
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.noms h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.noms a{
+    background-color: #ff9900;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+    .header .navbar .logo {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .header .navbar .menu {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .header .navbar .menu ul li {
+        margin: 0 8px;
+    }
+    .noms h2 {
+        font-size: 22px;
+    }
+    .noms a {
+        padding: 15px 30px;
+    }
+}
