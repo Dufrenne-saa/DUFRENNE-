@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -60,9 +61,6 @@
 
 .menu ul li a:hover {
     border-bottom: 2px solid #afb0fd;
-}
-.clearfix {
-    clear: both;
 }
 
 .header .services{
